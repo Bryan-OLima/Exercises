@@ -13,6 +13,7 @@ namespace Exercicios
 
             Console.Write("Digite a idade do aluno mais jovem: ");
             int youngerStd = int.Parse(Console.ReadLine());
+            Console.Write("Digite a idade do aluno mais velho: ")
             int olderStd = int.Parse(Console.ReadLine());
             double avgAge = (youngerStd + olderStd) / 2;
 
